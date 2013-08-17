@@ -73,9 +73,9 @@ faller.spawnMaxInterval = 3000
 faller.lastSpawn = 0
 
 local fallerList = {}
-local score = display.newText("0", screenWidth - 30, 20, "Arial", 32)
+local score = display.newText("0", screenWidth - 48, 20, "Arial", 32)
 
-txtDebug = display.newText("", screenCenterX, 0, "Arial", 14)
+---[ txtDebug = display.newText("", screenCenterX, 0, "Arial", 14)
 
 local xInstant = 0
 local xGrav = 0
@@ -93,7 +93,7 @@ end
 local function frameupdate(event)
 	collectorGuy.legs.xScale = 0 - collectorGuy.legs.xScale
 
-	txtDebug.text = xGrav
+	---[ txtDebug.text = xGrav
 	
 	---[ move character
 	characterGroup.x = characterGroup.x + xGrav * 3
