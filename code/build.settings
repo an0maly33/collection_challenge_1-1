@@ -1,0 +1,16 @@
+settings =
+{
+	iphone = 
+	{
+		plist = 
+		{
+			UIApplicationExitsOnSuspend = false,
+			UIAppFonts = { },
+			CFBundleURLTypes = { }
+		},
+	},
+	orientation =
+	{
+		default = "landscape"
+	},
+}
